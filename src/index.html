@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <script defer src="./index.js"></script>
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="bg-amber-200 w-full py-4">
+      <section
+        class="w-[327px] h-[200px] overflow-hidden mx-auto bg-[url('../images/drawers.jpg')] bg-cover bg-center rounded-t-lg"
+      ></section>
+      <section class="px-8 pt-9 w-[327px] mx-auto bg-white">
+        <p class="mb-3 text-[#48556A] text-base font-bold">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </p>
+        <p class="text-[#6E8098] text-sm">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+      </section>
+
+      <section
+        class="w-[327px] mx-auto px-8 pt-9 pb-5 bg-white flex justify-between rounded-b-lg"
+      >
+        <div class="flex flex-row gap-4 w-60">
+          <img
+            class="w-10 h-10 rounded-full"
+            src="../images/avatar-michelle.jpg"
+            alt="avatar-michelle"
+          />
+          <div class="flex flex-col">
+            <p class="text-nowrap text-[#48556A] text-sm font-bold">
+              Michelle Appleton
+            </p>
+            <p class="text-nowrap text-[#9DAEC2] text-sm font-medium">
+              28 Jun 2020
+            </p>
+          </div>
+        </div>
+        <button
+          id="icon-share"
+          class="w-8 h-8 bg-[#ECF2F8] bg-[url('../images/icon-share.svg')] bg-center bg-no-repeat rounded-full my-1"
+        ></button>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
